@@ -24,5 +24,24 @@ products = [
         price: 4600000000,
         description: "Sweeps your eyes away in a matter of seconds! This broom is so fast that it may even sweep your house away! Use cautiously."
     },
-    {}
+    {
+        name: "Twix",
+        price: 10000000,
+        description: "Tastes as crunchy and smooth as your bones! An exclusive twix bar."
+    },
+    {
+        name: "Hershey's",
+        price: 12000000,
+        description: "Milky Chocolate from the heavens! Tastes so good you'll come back for more!"
+    },
+    {
+        name: "Milky Way",
+        price: 11000000,
+        description: "Just like the name, when you eat this, you feel like you're one with the universe. Use cautiously."
+    },
+    {
+        name: "M&M's",
+        price: 10500000,
+        description: "Each one brings a burst of flavor! New flavors out now! Floor, Air, Blood, and even the popular request, Cardboard!"
+    }
 ]
