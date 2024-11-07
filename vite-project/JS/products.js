@@ -1,47 +1,69 @@
-products = [
+const products = [
     {
         name: "Clorox",
         price: 16000000,
-        description: "Cleans stains like never before! Abraham Lincoln touched this."
+        img
     },
     {
         name: "Wet Wipes",
         price: 13000000,
-        description: "Can wipe anything, even your family and friends! Use cautiously."
+        img
     },
     {
         name: "Mop",
         price: 500000000,
-        description: "A dead body. You can mop the floor with this and it'll leave your floor with a breathtaking marble design!"
+        img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com%2FAmerican-Market-Cotton-Solid-Handle%2Fdp%2FB06VXV3VPX&psig=AOvVaw3tyD6eafbhgJT6D351m_7o&ust=1731005261767000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCqxrfyyIkDFQAAAAAdAAAAABAE"
     },
     {
         name: "Vaccum",
         price: 1000000000,
-        description: "A high quality vaccum that can even suck up dead bodies! Perfect for any inconvenience."
+        img
     },
     {
         name: "Broom",
         price: 4600000000,
-        description: "Sweeps your eyes away in a matter of seconds! This broom is so fast that it may even sweep your house away! Use cautiously."
+        img
     },
     {
         name: "Twix",
         price: 10000000,
-        description: "Tastes as crunchy and smooth as your bones! An exclusive twix bar."
+        img
     },
     {
         name: "Hershey's",
         price: 12000000,
-        description: "Milky Chocolate from the heavens! Tastes so good you'll come back for more!"
+        img
     },
     {
         name: "Milky Way",
         price: 11000000,
-        description: "Just like the name, when you eat this, you feel like you're one with the universe. Use cautiously."
+        img
     },
     {
         name: "M&M's",
         price: 10500000,
-        description: "Each one brings a burst of flavor! New flavors out now! Floor, Air, Blood, and even the popular request, Cardboard!"
+        img
+    },
+    {
+        name: "Crunchy",
+        price: 10000000,
+        img
+    },
+    {
+        name: "Wall",
+        price: 1200000000,
+        img
+    },
+    {
+        name: "Door",
+        price: 1050000000,
+        img
+    },
+    {
+        name: "Floor",
+        price: 1400000000,
+        img
     }
 ]
+
+export {products}
