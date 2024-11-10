@@ -5,12 +5,27 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #fcfafa;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --light: #d2dff3;
+  --dark: #091c36;
+
+  --light-red: #f87171;
+  --dark-red: #dc2626;
+
+  --primary: var(--light);
+  --secondary: var(--dark);
+  --font-color: #000000;
+
+  --h1: 5rem;
+  --h2: 1.5rem;
+  --h3: .8rem;
+  --h4: 2.25rem;
+  --h5: 1.5rem;
 }
 
 a {
@@ -24,17 +39,23 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  background-color: var(--primary);
 }
 
 h1 {
-  font-size: 3.2em;
   line-height: 1.1;
+  font-size: var(--h1);
+  text-align: center;
 }
-
+h2 {
+  font-size: var(--h2);
+}
 #app {
   max-width: 1280px;
   margin: 0 auto;
@@ -108,7 +129,6 @@ button:focus-visible {
   background-image: url();
   background-color: white;
   padding: 30px;
-  box-shadow:20px 10px 10px rgb(220, 237, 251);
 }
 .container {
   width: 100vw;
@@ -126,6 +146,22 @@ button:focus-visible {
   border-radius: 20px;
   object-fit:contain;
 }
-.btn {
+#btn {
   flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+.sections {
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+.light {
+  --primary: var(--light);
+}
+.dark {
+  --primary: var(--dark);
+}
+#electronics {
+  align-items: center;
 }
