@@ -12,7 +12,7 @@ products.forEach((product) => DOMSelectors.container.insertAdjacentHTML("beforee
     `<div class="card">
         <h2 class = "name">${product.name}</h2>
         <h2 class = "price">${product.price}</h2>
-        <img id = "card-img" src="${product.img}" alt="">
+        <img id = "card-img" src= "${product.img}" alt="">
     </div>`
 ));
  //movies.sort
